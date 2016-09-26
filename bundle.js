@@ -20623,7 +20623,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/01-cowboy.png" })
+									React.createElement("img", { src: "img/blends/01-Cowboy.png" })
 								),
 								React.createElement(
 									"div",
@@ -20692,7 +20692,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/02-espresso.png" })
+									React.createElement("img", { src: "img/blends/02-Espresso.png" })
 								),
 								React.createElement(
 									"div",
@@ -20756,7 +20756,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/03-house.png" })
+									React.createElement("img", { src: "img/blends/03-House.png" })
 								),
 								React.createElement(
 									"div",
@@ -20819,7 +20819,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/04-mohawk.png" })
+									React.createElement("img", { src: "img/blends/04-Mohawk.png" })
 								),
 								React.createElement(
 									"div",
@@ -20888,7 +20888,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/05-mother.png" })
+									React.createElement("img", { src: "img/blends/05-Mother.png" })
 								),
 								React.createElement(
 									"div",
@@ -20952,7 +20952,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/06-toddy.png" })
+									React.createElement("img", { src: "img/blends/06-Toddy.png" })
 								),
 								React.createElement(
 									"div",
@@ -21025,7 +21025,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/07-italian.png" })
+									React.createElement("img", { src: "img/blends/07-Italian.png" })
 								),
 								React.createElement(
 									"div",

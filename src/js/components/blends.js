@@ -12,7 +12,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/01-cowboy.png"/>
+		                            <img src="img/blends/01-Cowboy.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
@@ -46,7 +46,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/02-espresso.png"/>
+		                            <img src="img/blends/02-Espresso.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
@@ -77,7 +77,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/03-house.png"/>
+		                            <img src="img/blends/03-House.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
@@ -107,7 +107,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/04-mohawk.png"/>
+		                            <img src="img/blends/04-Mohawk.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
@@ -138,7 +138,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/05-mother.png"/>
+		                            <img src="img/blends/05-Mother.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
@@ -169,7 +169,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/06-toddy.png"/>
+		                            <img src="img/blends/06-Toddy.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
@@ -205,7 +205,7 @@ var Blends = React.createClass({
 		                <div className="row">
 		                    <div className="card">
 		                        <div className="card-image">
-		                            <img src="img/blends/07-italian.png"/>
+		                            <img src="img/blends/07-Italian.png"/>
 		                        </div>
 		                        <div className="card-content">
 		                            <span className="card-title activator grey-text text-darken-4">
