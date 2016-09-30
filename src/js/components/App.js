@@ -1,6 +1,4 @@
 var React = require('react');
-// AppActions = require('../actions/AppActions');
-// AppStore = require('../stores/AppStore');
 
 // Custom Components
 var Nav = require('./nav.js');
@@ -9,7 +7,6 @@ var SingleOriginsSection = require('./singleOrigins.js');
 var Blends = require('./blends.js');
 var Lorem = require('./loremIpsum.js');
 var Footer = require('./footer.js');
-// var FluxCartApp = require('./FluxCartApp.react');
 
 function getAppState(){
 	return {
@@ -18,15 +15,6 @@ function getAppState(){
 };
 
 var App = React.createClass({
-	getInitialState: function(){
-		return getAppState();
-	},
-	componentDidMount: function(){
-		// AppStore.addChangeListener(this._onChange);
-	},
-	componentUnMount: function(){
-		// AppStore.removeChangeListener(this._onChange);
-	},
 	render: function(){
 		return(
 			<div className='main-container'>
@@ -36,7 +24,7 @@ var App = React.createClass({
 			    	<div className="section no-pad-bot">
 			            <div className="container">
 			                <div className="row center">
-			                    <img src="img/parallaxBackgrounds/brandLogo.png" className="logoPicture"/>
+			                    <img src="img/Buffalo_Logo.png" className="logoPicture" alt="Buffalo Logo" />
 			                </div>
 			            </div>
 			        </div>
@@ -85,10 +73,6 @@ var App = React.createClass({
 			</div>
 		);
 	},
-	_onChange: function(){
-		this.setState(getAppState());
-	}
 });
 
 module.exports = App;
-

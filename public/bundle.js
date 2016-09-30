@@ -19762,8 +19762,6 @@
 	'use strict';
 
 	var React = __webpack_require__(1);
-	// AppActions = require('../actions/AppActions');
-	// AppStore = require('../stores/AppStore');
 
 	// Custom Components
 	var Nav = __webpack_require__(160);
@@ -19772,7 +19770,6 @@
 	var Blends = __webpack_require__(163);
 	var Lorem = __webpack_require__(164);
 	var Footer = __webpack_require__(165);
-	// var FluxCartApp = require('./FluxCartApp.react');
 
 	function getAppState() {
 		return {};
@@ -19781,15 +19778,6 @@
 	var App = React.createClass({
 		displayName: 'App',
 
-		getInitialState: function getInitialState() {
-			return getAppState();
-		},
-		componentDidMount: function componentDidMount() {
-			// AppStore.addChangeListener(this._onChange);
-		},
-		componentUnMount: function componentUnMount() {
-			// AppStore.removeChangeListener(this._onChange);
-		},
 		render: function render() {
 			return React.createElement(
 				'div',
@@ -19807,7 +19795,7 @@
 							React.createElement(
 								'div',
 								{ className: 'row center' },
-								React.createElement('img', { src: 'img/parallaxBackgrounds/brandLogo.png', className: 'logoPicture' })
+								React.createElement('img', { src: 'img/Buffalo_Logo.png', className: 'logoPicture', alt: 'Buffalo Logo' })
 							)
 						)
 					),
@@ -19867,9 +19855,6 @@
 				React.createElement(Lorem, null),
 				React.createElement(Footer, null)
 			);
-		},
-		_onChange: function _onChange() {
-			this.setState(getAppState());
 		}
 	});
 
@@ -19889,7 +19874,7 @@
 		render: function render() {
 			return React.createElement(
 				"div",
-				{ className: "navbar-fixed" },
+				{ className: "navbar" },
 				React.createElement(
 					"nav",
 					{ className: "black", role: "navigation" },
@@ -19936,7 +19921,7 @@
 								null,
 								React.createElement(
 									"a",
-									{ href: "#" },
+									{ href: "#", className: "snipcart-checkout" },
 									React.createElement(
 										"i",
 										{ className: "material-icons" },
@@ -20140,6 +20125,18 @@
 										"p",
 										null,
 										"This South American coffee has a buttery mouth feel to go along with its rich milk chocolate and earth tones. The aroma is of sweet chocolate and hazelnut and there’s a nutty flavor in the finish. This is a hugely popular coffee to base espresso blends on due to its rather universal appeal."
+									),
+									React.createElement(
+										"button",
+										{
+											className: "snipcart-add-item waves-light btn",
+											"data-item-id": "2",
+											"data-item-name": "Brazil",
+											"data-item-price": "3.00",
+											"data-item-weight": "20",
+											"data-item-url": "/",
+											"data-item-description": "Some fresh bacon" },
+										"Add to Cart"
 									)
 								)
 							)
@@ -20623,7 +20620,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/01-cowboy.png" })
+									React.createElement("img", { src: "img/blends/01-Cowboy.png" })
 								),
 								React.createElement(
 									"div",
@@ -20692,7 +20689,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/02-espresso.png" })
+									React.createElement("img", { src: "img/blends/02-Espresso.png" })
 								),
 								React.createElement(
 									"div",
@@ -20756,7 +20753,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/03-house.png" })
+									React.createElement("img", { src: "img/blends/03-House.png" })
 								),
 								React.createElement(
 									"div",
@@ -20819,7 +20816,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/04-mohawk.png" })
+									React.createElement("img", { src: "img/blends/04-Mohawk.png" })
 								),
 								React.createElement(
 									"div",
@@ -20888,7 +20885,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/05-mother.png" })
+									React.createElement("img", { src: "img/blends/05-Mother.png" })
 								),
 								React.createElement(
 									"div",
@@ -20952,7 +20949,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/06-toddy.png" })
+									React.createElement("img", { src: "img/blends/06-Toddy.png" })
 								),
 								React.createElement(
 									"div",
@@ -21025,7 +21022,7 @@
 								React.createElement(
 									"div",
 									{ className: "card-image" },
-									React.createElement("img", { src: "img/blends/07-italian.png" })
+									React.createElement("img", { src: "img/blends/07-Italian.png" })
 								),
 								React.createElement(
 									"div",

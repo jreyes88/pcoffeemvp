@@ -3,7 +3,7 @@ var React = require('react');
 var Nav = React.createClass({
 	render: function(){
 		return(
-			<div className="navbar-fixed">
+			<div className="navbar">
 				<nav className="black" role="navigation">
 				    <div className="nav-wrapper container">
 				        <a id="logo-container" href="#" className="brand-logo">
@@ -26,7 +26,7 @@ var Nav = React.createClass({
 				                </a>
 				            </li>
 				            <li>
-				                <a href="#">
+				                <a href="#" className="snipcart-checkout">
 				                    <i className="material-icons">shopping_cart</i>
 				                </a>
 				            </li>

@@ -34,6 +34,16 @@ var SingleOriginsSection = React.createClass({
 		                            <p>
 		                                This South American coffee has a buttery mouth feel to go along with its rich milk chocolate and earth tones. The aroma is of sweet chocolate and hazelnut and there’s a nutty flavor in the finish. This is a hugely popular coffee to base espresso blends on due to its rather universal appeal.
 		                            </p>
+		                            <button
+									    className="snipcart-add-item waves-light btn"
+									    data-item-id="2"
+									    data-item-name="Brazil"
+									    data-item-price="3.00"
+									    data-item-weight="20"
+									    data-item-url="/"
+									    data-item-description="Some fresh bacon">
+									        Add to Cart
+									</button>
 		                        </div>
 		                    </div>
 		                </div>
